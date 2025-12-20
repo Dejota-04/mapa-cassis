@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import { ChevronDown, ChevronUp, MapPin, Info, FilterX } from 'lucide-react';
 
 const CassisMap = ({ activeRegion, onRegionSelect }) => {
-  const regionRefs = useRef({}); // Para fazer o scroll automático
+  const regionRefs = useRef({});
 
-  // --- SEUS DADOS COMPLETOS (Mantenha o objeto regions gigante aqui) ---
+  // --- DADOS COMPLETOS ---
   const regions = {
     "BOURGOGNE-FRANCHE-COMTÉ": {
       color: "bg-purple-100 border-purple-300",
@@ -463,7 +463,6 @@ const CassisMap = ({ activeRegion, onRegionSelect }) => {
     }
   };
 
-  // --- EFEITO: Scroll Automático ---
   useEffect(() => {
     if (activeRegion && regionRefs.current[activeRegion]) {
       regionRefs.current[activeRegion].scrollIntoView({
@@ -476,21 +475,21 @@ const CassisMap = ({ activeRegion, onRegionSelect }) => {
   const totalProducers = Object.values(regions).reduce((sum, region) => sum + region.total, 0);
 
   return (
-    <div className="p-4 pb-20">
+    <div className="p-4 pb-20 relative">
 
       {/* Header Fixo */}
-      <div className="mb-6 border-b pb-4 sticky top-0 bg-white z-10 pt-2 shadow-sm">
-        <h1 className="text-2xl font-bold text-purple-900 flex items-center gap-2">
-          <MapPin className="w-6 h-6" />
+      <div className="mb-6 sticky top-0 z-20 bg-white/95 backdrop-blur py-4 border-b border-gray-100">
+        <h1 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+          <MapPin className="w-6 h-6 text-purple-600" />
           Lista de Produtores
         </h1>
         {activeRegion && (
-          <div className="mt-2 flex items-center justify-between bg-purple-50 p-2 rounded border border-purple-200 animate-in fade-in">
+          <div className="mt-2 flex items-center justify-between bg-purple-50 p-2 rounded-lg border border-purple-100 animate-in fade-in">
             <span className="text-sm text-purple-700">
               Filtro ativo: <strong>{activeRegion}</strong>
             </span>
             <button
-              onClick={() => onRegionSelect(null)} // Botão X
+              onClick={() => onRegionSelect(null)}
               className="p-1 hover:bg-purple-200 rounded transition-colors"
               title="Limpar seleção"
             >
@@ -501,58 +500,89 @@ const CassisMap = ({ activeRegion, onRegionSelect }) => {
       </div>
 
       {/* Lista de Regiões */}
-      <div className="space-y-3">
+      <div className="space-y-4">
         {Object.entries(regions).map(([regionName, regionData]) => {
-          // --- AQUI ESTÁ A MÁGICA ---
-          // Agora "estar expandido" depende 100% de "ser a região ativa"
-          // Não existe mais um estado separado teimoso.
-          const isExpanded = activeRegion === regionName;
+          const isActive = activeRegion === regionName;
+          const textColorClass = regionData.headerColor.replace('bg-', 'text-');
 
           return (
             <div
               key={regionName}
               ref={el => regionRefs.current[regionName] = el}
-              className={`border rounded-lg overflow-hidden transition-all duration-300 ${
-                activeRegion && !isExpanded ? 'opacity-40 grayscale' : 'opacity-100 shadow-md scale-[1.01]'
-              } ${regionData.color}`}
+              className={`
+                scroll-mt-48 group rounded-xl border transition-all duration-300 overflow-hidden
+                ${isActive
+                  ? 'border-purple-200 bg-white shadow-lg ring-1 ring-purple-50'
+                  : 'border-gray-100 bg-white shadow-sm hover:shadow-md hover:border-gray-200'
+                }
+              `}
             >
               <button
-                onClick={() => onRegionSelect(regionName)} // Manda o comando pro App.jsx (que vai decidir se abre ou fecha)
-                className={`w-full ${regionData.headerColor} text-white p-3 flex items-center justify-between hover:opacity-90 transition-opacity`}
+                onClick={() => onRegionSelect(regionName)}
+                className={`
+                  w-full p-4 flex items-center justify-between text-left relative
+                  ${isActive ? 'bg-gray-50/50' : 'bg-white'}
+                `}
               >
-                <div className="flex items-center gap-2 text-left">
-                  <span className="font-bold text-sm uppercase">{regionName}</span>
-                  <span className="bg-white/20 px-2 py-0.5 rounded text-xs">
-                    {regionData.total}
-                  </span>
+                <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${regionData.headerColor}`} />
+
+                <div className="flex items-center gap-3 pl-3">
+                  <div className={`
+                    p-2 rounded-lg transition-all duration-300
+                    ${isActive
+                      ? 'bg-purple-100 text-purple-600 shadow-sm'
+                      : 'bg-white text-gray-400 group-hover:text-purple-600 group-hover:bg-purple-50'
+                    }
+                  `}>
+                    <MapPin className="w-5 h-5" />
+                  </div>
+
+                  <div>
+                    <span className={`block font-bold text-sm text-gray-800 group-hover:${textColorClass} transition-colors`}>
+                      {regionName}
+                    </span>
+                    <span className="text-xs text-gray-500 font-medium">
+                      {regionData.total} produtores
+                    </span>
+                  </div>
                 </div>
-                {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+
+                {isActive ?
+                  <ChevronUp className="w-5 h-5 text-gray-400" /> :
+                  <ChevronDown className="w-5 h-5 text-gray-300 group-hover:text-gray-500" />
+                }
               </button>
 
-              {/* Só mostra se for a região ativa */}
-              {isExpanded && (
-                <div className="p-3 bg-white text-sm animate-in slide-in-from-top-2 duration-300">
-                  {Object.entries(regionData.departments).map(([deptName, deptData]) => (
-                    <div key={deptName} className="mb-4 last:mb-0">
-                      <h4 className="font-bold text-purple-800 mb-2 border-b pb-1 flex justify-between items-center">
-                        {deptName}
-                        <span className="text-xs bg-purple-100 px-2 py-0.5 rounded-full text-purple-600 font-medium">
-                          {deptData.count}
-                        </span>
-                      </h4>
-                      <div className="space-y-1 pl-2">
-                        {deptData.producers.map((producer, idx) => (
-                          <div key={idx} className={`
-                            ${producer.startsWith('🏭') || producer.startsWith('🍇') || producer.startsWith('📍') || producer.startsWith('🏆') || producer.startsWith('🍒') || producer.startsWith('🏰')
-                              ? 'font-bold mt-3 text-purple-900 border-t pt-2 first:mt-0 first:border-0 first:pt-0'
-                              : 'text-gray-600 ml-2 border-l-2 border-gray-100 pl-2 hover:border-purple-300 transition-colors'}
-                          `}>
-                            {producer}
-                          </div>
-                        ))}
+              {isActive && (
+                <div className="px-5 pb-5 pt-2 border-t border-gray-100 bg-white">
+                  <div className="space-y-6 pt-3 animate-in fade-in duration-300">
+                    {Object.entries(regionData.departments).map(([deptName, deptData]) => (
+                      <div key={deptName} className="last:mb-0">
+                        <h4 className={`text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2 ${textColorClass} opacity-90`}>
+                          {deptName}
+                          <span className="bg-gray-50 border border-gray-200 px-1.5 py-0.5 rounded text-[10px] text-gray-500">
+                            {deptData.count}
+                          </span>
+                        </h4>
+
+                        <div className="space-y-2 pl-3 border-l-2 border-gray-100 ml-1">
+                          {deptData.producers.map((producer, idx) => {
+                            const isTitle = producer.startsWith('🏭') || producer.startsWith('🍇') || producer.startsWith('📍') || producer.startsWith('🏆') || producer.startsWith('🍒') || producer.startsWith('🏰') || producer.startsWith('🌾') || producer.startsWith('🥃') || producer.startsWith('🌊') || producer.startsWith('🍎');
+
+                            return (
+                              <div key={idx} className={`text-sm leading-relaxed ${
+                                isTitle
+                                  ? 'font-bold text-gray-800 mt-4 mb-2 -ml-3 pl-3 pt-2 border-t border-dashed border-gray-100 first:border-0 first:mt-0 first:pt-0'
+                                  : 'text-gray-600 hover:text-purple-700 transition-colors cursor-default pl-1'
+                              }`}>
+                                {producer}
+                              </div>
+                            );
+                          })}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -560,8 +590,8 @@ const CassisMap = ({ activeRegion, onRegionSelect }) => {
         })}
       </div>
 
-      <div className="mt-8 bg-gray-50 rounded p-4 text-xs text-gray-600 border">
-        <h4 className="font-bold mb-2 flex items-center gap-1"><Info className="w-3 h-3"/> Resumo Geral</h4>
+      <div className="mt-8 bg-gray-50 rounded-xl p-4 text-xs text-gray-500 border border-gray-100">
+        <h4 className="font-bold mb-2 flex items-center gap-1 text-gray-700"><Info className="w-3 h-3"/> Resumo Geral</h4>
         <div className="grid grid-cols-2 gap-2">
              <div>Total Produtores: <strong>{totalProducers}+</strong></div>
              <div>Regiões Mapeadas: <strong>13</strong></div>
