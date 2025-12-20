@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import { ChevronDown, ChevronUp, MapPin } from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { ChevronDown, ChevronUp, MapPin, Info, FilterX } from 'lucide-react';
 
-const CassisMap = () => {
-  const [expandedRegions, setExpandedRegions] = useState({});
+const CassisMap = ({ activeRegion, onRegionSelect }) => {
+  const regionRefs = useRef({}); // Para fazer o scroll automático
 
+  // --- SEUS DADOS COMPLETOS (Mantenha o objeto regions gigante aqui) ---
   const regions = {
     "BOURGOGNE-FRANCHE-COMTÉ": {
       color: "bg-purple-100 border-purple-300",
@@ -462,111 +463,90 @@ const CassisMap = () => {
     }
   };
 
-  const toggleRegion = (regionName) => {
-    setExpandedRegions(prev => ({
-      ...prev,
-      [regionName]: !prev[regionName]
-    }));
-  };
+  // --- EFEITO: Scroll Automático ---
+  useEffect(() => {
+    if (activeRegion && regionRefs.current[activeRegion]) {
+      regionRefs.current[activeRegion].scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }, [activeRegion]);
 
   const totalProducers = Object.values(regions).reduce((sum, region) => sum + region.total, 0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-purple-900 mb-4 flex items-center gap-3">
-            <MapPin className="w-10 h-10 text-purple-600" />
-            Mapa de Produtores de Cassis na França
-          </h1>
-          <p className="text-lg text-gray-700 mb-4">
-            Mapeamento completo de mais de <span className="font-bold text-purple-600">{totalProducers}+</span> produtores,
-            destilarias, vinícolas e cooperativas que produzem Cassis, Crème de Cassis, Liqueur de Cassis e Sirop de Cassis
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <div className="bg-purple-100 p-4 rounded-lg">
-              <div className="text-3xl font-bold text-purple-600">{totalProducers}+</div>
-              <div className="text-sm text-gray-700">Total de Produtores</div>
-            </div>
-            <div className="bg-blue-100 p-4 rounded-lg">
-              <div className="text-3xl font-bold text-blue-600">13</div>
-              <div className="text-sm text-gray-700">Regiões da França</div>
-            </div>
-            <div className="bg-green-100 p-4 rounded-lg">
-              <div className="text-3xl font-bold text-green-600">100+</div>
-              <div className="text-sm text-gray-700">Departamentos</div>
-            </div>
-          </div>
-        </div>
+    <div className="p-4 pb-20">
 
-        {/* Regions Map */}
-        <div className="space-y-4">
-          {Object.entries(regions).map(([regionName, regionData]) => (
+      {/* Header Fixo */}
+      <div className="mb-6 border-b pb-4 sticky top-0 bg-white z-10 pt-2 shadow-sm">
+        <h1 className="text-2xl font-bold text-purple-900 flex items-center gap-2">
+          <MapPin className="w-6 h-6" />
+          Lista de Produtores
+        </h1>
+        {activeRegion && (
+          <div className="mt-2 flex items-center justify-between bg-purple-50 p-2 rounded border border-purple-200 animate-in fade-in">
+            <span className="text-sm text-purple-700">
+              Filtro ativo: <strong>{activeRegion}</strong>
+            </span>
+            <button
+              onClick={() => onRegionSelect(null)} // Botão X
+              className="p-1 hover:bg-purple-200 rounded transition-colors"
+              title="Limpar seleção"
+            >
+              <FilterX className="w-4 h-4 text-purple-700" />
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Lista de Regiões */}
+      <div className="space-y-3">
+        {Object.entries(regions).map(([regionName, regionData]) => {
+          // --- AQUI ESTÁ A MÁGICA ---
+          // Agora "estar expandido" depende 100% de "ser a região ativa"
+          // Não existe mais um estado separado teimoso.
+          const isExpanded = activeRegion === regionName;
+
+          return (
             <div
               key={regionName}
-              className={`${regionData.color} border-2 rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl`}
+              ref={el => regionRefs.current[regionName] = el}
+              className={`border rounded-lg overflow-hidden transition-all duration-300 ${
+                activeRegion && !isExpanded ? 'opacity-40 grayscale' : 'opacity-100 shadow-md scale-[1.01]'
+              } ${regionData.color}`}
             >
-              {/* Region Header */}
               <button
-                onClick={() => toggleRegion(regionName)}
-                className={`w-full ${regionData.headerColor} text-white p-6 flex items-center justify-between hover:opacity-90 transition-opacity`}
+                onClick={() => onRegionSelect(regionName)} // Manda o comando pro App.jsx (que vai decidir se abre ou fecha)
+                className={`w-full ${regionData.headerColor} text-white p-3 flex items-center justify-between hover:opacity-90 transition-opacity`}
               >
-                <div className="flex items-center gap-3">
-                  <MapPin className="w-6 h-6" />
-                  <div className="text-left">
-                    <h2 className="text-2xl font-bold">{regionName}</h2>
-                    <p className="text-sm opacity-90">
-                      {regionData.total} produtores identificados
-                    </p>
-                  </div>
+                <div className="flex items-center gap-2 text-left">
+                  <span className="font-bold text-sm uppercase">{regionName}</span>
+                  <span className="bg-white/20 px-2 py-0.5 rounded text-xs">
+                    {regionData.total}
+                  </span>
                 </div>
-                {expandedRegions[regionName] ? (
-                  <ChevronUp className="w-6 h-6" />
-                ) : (
-                  <ChevronDown className="w-6 h-6" />
-                )}
+                {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
               </button>
 
-              {/* Region Content */}
-              {expandedRegions[regionName] && (
-                <div className="p-6 bg-white">
+              {/* Só mostra se for a região ativa */}
+              {isExpanded && (
+                <div className="p-3 bg-white text-sm animate-in slide-in-from-top-2 duration-300">
                   {Object.entries(regionData.departments).map(([deptName, deptData]) => (
-                    <div key={deptName} className="mb-6 last:mb-0">
-                      <h3 className="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
-                        <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
+                    <div key={deptName} className="mb-4 last:mb-0">
+                      <h4 className="font-bold text-purple-800 mb-2 border-b pb-1 flex justify-between items-center">
+                        {deptName}
+                        <span className="text-xs bg-purple-100 px-2 py-0.5 rounded-full text-purple-600 font-medium">
                           {deptData.count}
                         </span>
-                        {deptName}
-                      </h3>
-                      <div className="bg-gray-50 rounded-lg p-4">
+                      </h4>
+                      <div className="space-y-1 pl-2">
                         {deptData.producers.map((producer, idx) => (
-                          <div
-                            key={idx}
-                            className={`${
-                              producer.startsWith('🏭') || producer.startsWith('🍇') ||
-                              producer.startsWith('🌾') || producer.startsWith('🥃') ||
-                              producer.startsWith('🏰') || producer.startsWith('🌰') ||
-                              producer.startsWith('🌻') || producer.startsWith('📍') ||
-                              producer.startsWith('🤝') || producer.startsWith('🌿') ||
-                              producer.startsWith('🌺') || producer.startsWith('🏖️') ||
-                              producer.startsWith('🌊') || producer.startsWith('🍎') ||
-                              producer.startsWith('🏭') || producer.startsWith('🏆') ||
-                              producer.startsWith('🧃') || producer.startsWith('🌍') ||
-                              producer.startsWith('🍏') || producer.startsWith('🚚') ||
-                              producer.startsWith('⛰️') || producer.startsWith('🌋') ||
-                              producer.startsWith('🍒') || producer.startsWith('🌲') ||
-                              producer.startsWith('📊')
-                                ? 'font-bold text-purple-900 mt-3 text-base'
-                                : producer.startsWith('•')
-                                ? 'text-gray-700 ml-4 text-sm'
-                                : producer.startsWith('👨‍🌾')
-                                ? 'text-green-700 font-semibold ml-4 mt-2 text-sm'
-                                : producer === ''
-                                ? 'h-2'
-                                : 'text-gray-600 ml-4 text-sm'
-                            }`}
-                          >
+                          <div key={idx} className={`
+                            ${producer.startsWith('🏭') || producer.startsWith('🍇') || producer.startsWith('📍') || producer.startsWith('🏆') || producer.startsWith('🍒') || producer.startsWith('🏰')
+                              ? 'font-bold mt-3 text-purple-900 border-t pt-2 first:mt-0 first:border-0 first:pt-0'
+                              : 'text-gray-600 ml-2 border-l-2 border-gray-100 pl-2 hover:border-purple-300 transition-colors'}
+                          `}>
                             {producer}
                           </div>
                         ))}
@@ -576,88 +556,15 @@ const CassisMap = () => {
                 </div>
               )}
             </div>
-          ))}
-        </div>
+          );
+        })}
+      </div>
 
-        {/* Footer Stats */}
-        <div className="mt-8 bg-white rounded-xl shadow-lg p-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-4">📊 Estatísticas Adicionais</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
-            <div>
-              <strong>Cooperativas na França:</strong> ~670 caves coopératives (fonte oficial 2014)
-            </div>
-            <div>
-              <strong>Languedoc-Roussillon:</strong> 691 caves e distilleries catalogadas
-            </div>
-            <div>
-              <strong>Champagne:</strong> 132 cooperativas agrupando 14.000 viticultores
-            </div>
-            <div>
-              <strong>Occitanie:</strong> 230 caves coopératives
-            </div>
-            <div>
-              <strong>Normandia:</strong> Mais de 350 produtores cidricolas
-            </div>
-            <div>
-              <strong>Filière Cassis:</strong> ~100 produtores de bagas de cassis (1.500 ton/ano)
-            </div>
-            <div>
-              <strong>Bouilleurs Ambulants:</strong> 50-100 destiladores móveis estimados
-            </div>
-            <div>
-              <strong>IGP Cassis de Dijon:</strong> 80% da produção francesa de crème de cassis
-            </div>
-          </div>
-        </div>
-
-        {/* Legend */}
-        <div className="mt-8 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl shadow-lg p-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-4">🔑 Legenda</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🏭</span>
-              <span>Grandes produtores industriais</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🍷</span>
-              <span>Produtores artesanais e médios</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🏰</span>
-              <span>Vinícolas e domaines</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🤝</span>
-              <span>Cooperativas e caves coopératives</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🚚</span>
-              <span>Bouilleurs ambulants (destiladores móveis)</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">👨‍🌾</span>
-              <span>Pequenos produtores locais estimados</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🧃</span>
-              <span>Fabricantes de xaropes de cassis</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🏆</span>
-              <span>Marcas históricas nacionais</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Note */}
-        <div className="mt-8 bg-yellow-50 border-2 border-yellow-300 rounded-xl p-6">
-          <h3 className="text-lg font-bold text-yellow-900 mb-2">📝 Nota Importante</h3>
-          <p className="text-sm text-gray-700">
-            Este mapa representa mais de <strong>1.000 entidades</strong> envolvidas na produção de cassis na França,
-            incluindo grandes produtores, destilarias médias, pequenas vinícolas, cooperativas, bouilleurs ambulants,
-            produtores cidricolas e agricultores familiares. Muitos pequenos produtores operam localmente sem presença
-            digital significativa, mas fazem parte da rica tradição francesa de produção de cassis.
-          </p>
+      <div className="mt-8 bg-gray-50 rounded p-4 text-xs text-gray-600 border">
+        <h4 className="font-bold mb-2 flex items-center gap-1"><Info className="w-3 h-3"/> Resumo Geral</h4>
+        <div className="grid grid-cols-2 gap-2">
+             <div>Total Produtores: <strong>{totalProducers}+</strong></div>
+             <div>Regiões Mapeadas: <strong>13</strong></div>
         </div>
       </div>
     </div>

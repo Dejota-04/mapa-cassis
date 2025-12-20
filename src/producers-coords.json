@@ -1,0 +1,1397 @@
+[
+  {
+    "name": "Lejay-Lagoute",
+    "originalText": "• Lejay-Lagoute (Dijon, 1841) - Criadora original",
+    "city": "Dijon",
+    "lat": 47.3215806,
+    "lng": 5.0414701,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Lejay-Lagoute (Dijon, 1841) - Criadora original"
+  },
+  {
+    "name": "L'Héritier-Guyot",
+    "originalText": "• L'Héritier-Guyot (Dijon, 1845)",
+    "city": "Dijon",
+    "lat": 47.3215806,
+    "lng": 5.0414701,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• L'Héritier-Guyot (Dijon, 1845)"
+  },
+  {
+    "name": "Gabriel Boudier",
+    "originalText": "• Gabriel Boudier (Dijon, 1846)",
+    "city": "Dijon",
+    "lat": 47.3215806,
+    "lng": 5.0414701,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Gabriel Boudier (Dijon, 1846)"
+  },
+  {
+    "name": "Briottet",
+    "originalText": "• Briottet (Dijon, 1836)",
+    "city": "Dijon",
+    "lat": 47.3215806,
+    "lng": 5.0414701,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Briottet (Dijon, 1836)"
+  },
+  {
+    "name": "Védrenne",
+    "originalText": "• Védrenne (Nuits-Saint-Georges, 1923)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Védrenne (Nuits-Saint-Georges, 1923)"
+  },
+  {
+    "name": "Joseph Cartron",
+    "originalText": "• Joseph Cartron (Nuits-Saint-Georges, 1882)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Joseph Cartron (Nuits-Saint-Georges, 1882)"
+  },
+  {
+    "name": "Jean-Baptiste Joannet",
+    "originalText": "• Jean-Baptiste Joannet (Arcenant, 1978)",
+    "city": "Arcenant",
+    "lat": 47.13897,
+    "lng": 4.84471,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Jean-Baptiste Joannet (Arcenant, 1978)"
+  },
+  {
+    "name": "Ferme Fruirouge",
+    "originalText": "• Ferme Fruirouge (Concœur, orgânico)",
+    "city": "Concœur",
+    "lat": 47.1639659,
+    "lng": 4.9196622,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Ferme Fruirouge (Concœur, orgânico)"
+  },
+  {
+    "name": "Paul & Colette Simon",
+    "originalText": "• Paul & Colette Simon (Marey-les-Fussey)",
+    "city": "Marey-les-Fussey",
+    "lat": 47.119568,
+    "lng": 4.8574156,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Paul & Colette Simon (Marey-les-Fussey)"
+  },
+  {
+    "name": "Sylvain Bouhélier",
+    "originalText": "• Sylvain Bouhélier (Chaumont-le-Bois)",
+    "city": "Chaumont-le-Bois",
+    "lat": 47.9254805,
+    "lng": 4.5784728,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Sylvain Bouhélier (Chaumont-le-Bois)"
+  },
+  {
+    "name": "Valérie Rossignol",
+    "originalText": "• Valérie Rossignol (Ladoix-Serrigny)",
+    "city": "Ladoix-Serrigny",
+    "lat": 47.0668663,
+    "lng": 4.8872591,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Valérie Rossignol (Ladoix-Serrigny)"
+  },
+  {
+    "name": "Domaine Philippe Gavignet",
+    "originalText": "• Domaine Philippe Gavignet (Nuits-Saint-Georges)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Philippe Gavignet (Nuits-Saint-Georges)"
+  },
+  {
+    "name": "Domaine Dufouleur",
+    "originalText": "• Domaine Dufouleur (Nuits-Saint-Georges)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Dufouleur (Nuits-Saint-Georges)"
+  },
+  {
+    "name": "Domaine Manuel Olivier",
+    "originalText": "• Domaine Manuel Olivier (Corboin)",
+    "city": "Corboin",
+    "lat": 47.1698774,
+    "lng": 4.9192789,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Manuel Olivier (Corboin)"
+  },
+  {
+    "name": "Domaine Trapet",
+    "originalText": "• Domaine Trapet (Gevrey-Chambertin, bio)",
+    "city": "Gevrey-Chambertin",
+    "lat": 47.2261857,
+    "lng": 4.9705666,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Trapet (Gevrey-Chambertin, bio)"
+  },
+  {
+    "name": "Maison Jean-Claude Boisset",
+    "originalText": "• Maison Jean-Claude Boisset (Nuits-Saint-Georges)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Maison Jean-Claude Boisset (Nuits-Saint-Georges)"
+  },
+  {
+    "name": "Maison Louis Bouillot",
+    "originalText": "• Maison Louis Bouillot (Nuits-Saint-Georges)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Maison Louis Bouillot (Nuits-Saint-Georges)"
+  },
+  {
+    "name": "Maison Bouchard Père & Fils",
+    "originalText": "• Maison Bouchard Père & Fils (Beaune, 1731)",
+    "city": "Beaune",
+    "lat": 47.0239064,
+    "lng": 4.8380426,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Maison Bouchard Père & Fils (Beaune, 1731)"
+  },
+  {
+    "name": "Château Gris",
+    "originalText": "• Château Gris (Nuits-Saint-Georges)",
+    "city": "Nuits-Saint-Georges",
+    "lat": 47.1367598,
+    "lng": 4.9489061,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Château Gris (Nuits-Saint-Georges)"
+  },
+  {
+    "name": "Vignerons Nuiton-Beaunoy",
+    "originalText": "• Vignerons Nuiton-Beaunoy (Beaune)",
+    "city": "Beaune",
+    "lat": 47.0239064,
+    "lng": 4.8380426,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Vignerons Nuiton-Beaunoy (Beaune)"
+  },
+  {
+    "name": "La Chablisienne",
+    "originalText": "• La Chablisienne (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• La Chablisienne (Chablis)"
+  },
+  {
+    "name": "Union des Viticulteurs de Chablis",
+    "originalText": "• Union des Viticulteurs de Chablis (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Union des Viticulteurs de Chablis (Chablis)"
+  },
+  {
+    "name": "Domaine William Fèvre",
+    "originalText": "• Domaine William Fèvre (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine William Fèvre (Chablis)"
+  },
+  {
+    "name": "Domaine Christian Moreau Père et Fils",
+    "originalText": "• Domaine Christian Moreau Père et Fils (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Christian Moreau Père et Fils (Chablis)"
+  },
+  {
+    "name": "Domaine Tupinier",
+    "originalText": "• Domaine Tupinier (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Tupinier (Chablis)"
+  },
+  {
+    "name": "Domaine de Noëlle",
+    "originalText": "• Domaine de Noëlle (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine de Noëlle (Chablis)"
+  },
+  {
+    "name": "Domaine Gautheron",
+    "originalText": "• Domaine Gautheron (Fleys)",
+    "city": "Fleys",
+    "lat": 47.8150237,
+    "lng": 3.8620717,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Gautheron (Fleys)"
+  },
+  {
+    "name": "Louis Michel et Fils",
+    "originalText": "• Louis Michel et Fils (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Louis Michel et Fils (Chablis)"
+  },
+  {
+    "name": "Domaine du Chardonnay",
+    "originalText": "• Domaine du Chardonnay (Chablis)",
+    "city": "Chablis",
+    "lat": 47.8152073,
+    "lng": 3.8001657,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine du Chardonnay (Chablis)"
+  },
+  {
+    "name": "GAEC des Vins Vieux",
+    "originalText": "• GAEC des Vins Vieux (Lignorelles)",
+    "city": "Lignorelles",
+    "lat": 47.8634136,
+    "lng": 3.7279379,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• GAEC des Vins Vieux (Lignorelles)"
+  },
+  {
+    "name": "Domaine Les Charmes",
+    "originalText": "• Domaine Les Charmes (Sermoyer, bio, 25 ha)",
+    "city": "Sermoyer",
+    "lat": 46.4972332,
+    "lng": 4.9798714,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Les Charmes (Sermoyer, bio, 25 ha)"
+  },
+  {
+    "name": "Domaine du Vissoux",
+    "originalText": "• Domaine du Vissoux (Saint-Vérand)",
+    "city": "Saint-Vérand",
+    "lat": 45.1738392,
+    "lng": 5.3329287,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine du Vissoux (Saint-Vérand)"
+  },
+  {
+    "name": "Crozet Frères",
+    "originalText": "• Crozet Frères (Lancié)",
+    "city": "Lancié",
+    "lat": 46.1704998,
+    "lng": 4.7134128,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Crozet Frères (Lancié)"
+  },
+  {
+    "name": "Cave La Vigne Blanche",
+    "originalText": "• Cave La Vigne Blanche (Clessé, 1927)",
+    "city": "Clessé",
+    "lat": 46.416292,
+    "lng": 4.8140269,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Cave La Vigne Blanche (Clessé, 1927)"
+  },
+  {
+    "name": "Cave de Lugny",
+    "originalText": "• Cave de Lugny (Lugny)",
+    "city": "Lugny",
+    "lat": 49.7816658,
+    "lng": 3.8087528,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Cave de Lugny (Lugny)"
+  },
+  {
+    "name": "Cave Coopérative de Fleurie",
+    "originalText": "• Cave Coopérative de Fleurie (Fleurie)",
+    "city": "Fleurie",
+    "lat": 46.1920243,
+    "lng": 4.6981214,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Cave Coopérative de Fleurie (Fleurie)"
+  },
+  {
+    "name": "Domaine Fleurot",
+    "originalText": "• Domaine Fleurot (Santenay, 1872)",
+    "city": "Santenay",
+    "lat": 46.9115071,
+    "lng": 4.6996302,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Domaine Fleurot (Santenay, 1872)"
+  },
+  {
+    "name": "Hervé Guigon",
+    "originalText": "• Hervé Guigon (Sassenay)",
+    "city": "Sassenay",
+    "lat": 46.8307941,
+    "lng": 4.9199008,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Hervé Guigon (Sassenay)"
+  },
+  {
+    "name": "Grandes Distilleries Peureux",
+    "originalText": "• Grandes Distilleries Peureux (Fougerolles, 1864)",
+    "city": "Fougerolles",
+    "lat": 47.902459,
+    "lng": 6.4160062,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Grandes Distilleries Peureux (Fougerolles, 1864)"
+  },
+  {
+    "name": "Distillerie Paul Devoille",
+    "originalText": "• Distillerie Paul Devoille (Fougerolles, 1859, EPV)",
+    "city": "Fougerolles",
+    "lat": 47.902459,
+    "lng": 6.4160062,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Distillerie Paul Devoille (Fougerolles, 1859, EPV)"
+  },
+  {
+    "name": "Distillerie Guy",
+    "originalText": "• Distillerie Guy (Pontarlier, 1890)",
+    "city": "Pontarlier",
+    "lat": 46.9040348,
+    "lng": 6.3546345,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Distillerie Guy (Pontarlier, 1890)"
+  },
+  {
+    "name": "Distillerie Heima",
+    "originalText": "• Distillerie Heima (Les Hôpitaux-Neufs)",
+    "city": "Les Hôpitaux-Neufs",
+    "lat": 46.7763224,
+    "lng": 6.375832,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Distillerie Heima (Les Hôpitaux-Neufs)"
+  },
+  {
+    "name": "Nicolas",
+    "originalText": "• Nicolas (Noroy-le-Bourg)",
+    "city": "Noroy-le-Bourg",
+    "lat": 47.6141,
+    "lng": 6.30612,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Nicolas (Noroy-le-Bourg)"
+  },
+  {
+    "name": "Cassiopée",
+    "originalText": "• Cassiopée (Château-Chalon)",
+    "city": "Château-Chalon",
+    "lat": 46.7547194,
+    "lng": 5.6269716,
+    "region": "BOURGOGNE-FRANCHE-COMTÉ",
+    "details": "• Cassiopée (Château-Chalon)"
+  },
+  {
+    "name": "Massenez / G.E. Massenez",
+    "originalText": "• Massenez / G.E. Massenez (Dieffenbach-au-Val)",
+    "city": "Dieffenbach-au-Val",
+    "lat": 48.3153607,
+    "lng": 7.3261687,
+    "region": "GRAND EST",
+    "details": "• Massenez / G.E. Massenez (Dieffenbach-au-Val)"
+  },
+  {
+    "name": "Gilbert Holl",
+    "originalText": "• Gilbert Holl (Ribeauvillé, 1979)",
+    "city": "Ribeauvillé",
+    "lat": 48.1924602,
+    "lng": 7.3248871,
+    "region": "GRAND EST",
+    "details": "• Gilbert Holl (Ribeauvillé, 1979)"
+  },
+  {
+    "name": "Lecomte Blaise",
+    "originalText": "• Lecomte Blaise (Le Syndicat)",
+    "city": "Le Syndicat",
+    "lat": 48.0255937,
+    "lng": 6.684854,
+    "region": "GRAND EST",
+    "details": "• Lecomte Blaise (Le Syndicat)"
+  },
+  {
+    "name": "Jos Nusbaumer",
+    "originalText": "• Jos Nusbaumer (Steige, 1947, EPV)",
+    "city": "Steige",
+    "lat": 48.3612237,
+    "lng": 7.2356547,
+    "region": "GRAND EST",
+    "details": "• Jos Nusbaumer (Steige, 1947, EPV)"
+  },
+  {
+    "name": "Distillerie Meyer",
+    "originalText": "• Distillerie Meyer (Châtenois, 1958, EPV)",
+    "city": "Châtenois",
+    "lat": 48.272548,
+    "lng": 7.4013652,
+    "region": "GRAND EST",
+    "details": "• Distillerie Meyer (Châtenois, 1958, EPV)"
+  },
+  {
+    "name": "Distillerie Lehmann",
+    "originalText": "• Distillerie Lehmann (Dambach-la-Ville, 1850)",
+    "city": "Dambach-la-Ville",
+    "lat": 48.3236645,
+    "lng": 7.424953,
+    "region": "GRAND EST",
+    "details": "• Distillerie Lehmann (Dambach-la-Ville, 1850)"
+  },
+  {
+    "name": "Distillerie Mersiol",
+    "originalText": "• Distillerie Mersiol (Dambach-la-Ville)",
+    "city": "Dambach-la-Ville",
+    "lat": 48.3236645,
+    "lng": 7.424953,
+    "region": "GRAND EST",
+    "details": "• Distillerie Mersiol (Dambach-la-Ville)"
+  },
+  {
+    "name": "Dopff & Irion",
+    "originalText": "• Dopff & Irion (Riquewihr)",
+    "city": "Riquewihr",
+    "lat": 48.1660766,
+    "lng": 7.298014,
+    "region": "GRAND EST",
+    "details": "• Dopff & Irion (Riquewihr)"
+  },
+  {
+    "name": "Ernest Preiss",
+    "originalText": "• Ernest Preiss (Riquewihr)",
+    "city": "Riquewihr",
+    "lat": 48.1660766,
+    "lng": 7.298014,
+    "region": "GRAND EST",
+    "details": "• Ernest Preiss (Riquewihr)"
+  },
+  {
+    "name": "Marcel Windholtz",
+    "originalText": "• Marcel Windholtz (Ribeauvillé)",
+    "city": "Ribeauvillé",
+    "lat": 48.1924602,
+    "lng": 7.3248871,
+    "region": "GRAND EST",
+    "details": "• Marcel Windholtz (Ribeauvillé)"
+  },
+  {
+    "name": "Hoeffler Distillerie",
+    "originalText": "• Hoeffler Distillerie (Ribeauvillé)",
+    "city": "Ribeauvillé",
+    "lat": 48.1924602,
+    "lng": 7.3248871,
+    "region": "GRAND EST",
+    "details": "• Hoeffler Distillerie (Ribeauvillé)"
+  },
+  {
+    "name": "Klein Wanner",
+    "originalText": "• Klein Wanner (Dambach-la-Ville)",
+    "city": "Dambach-la-Ville",
+    "lat": 48.3236645,
+    "lng": 7.424953,
+    "region": "GRAND EST",
+    "details": "• Klein Wanner (Dambach-la-Ville)"
+  },
+  {
+    "name": "Adam Boissons",
+    "originalText": "• Adam Boissons (Guewenheim)",
+    "city": "Guewenheim",
+    "lat": 47.7519452,
+    "lng": 7.0932645,
+    "region": "GRAND EST",
+    "details": "• Adam Boissons (Guewenheim)"
+  },
+  {
+    "name": "Domaine du Bollenberg",
+    "originalText": "• Domaine du Bollenberg (Westhalten)",
+    "city": "Westhalten",
+    "lat": 47.957757,
+    "lng": 7.2594611,
+    "region": "GRAND EST",
+    "details": "• Domaine du Bollenberg (Westhalten)"
+  },
+  {
+    "name": "Distillerie de Mélanie",
+    "originalText": "• Distillerie de Mélanie (Marieulles-Vezon)",
+    "city": "Marieulles-Vezon",
+    "lat": 48.9988067,
+    "lng": 6.1001564,
+    "region": "GRAND EST",
+    "details": "• Distillerie de Mélanie (Marieulles-Vezon)"
+  },
+  {
+    "name": "Distillerie Eulriet",
+    "originalText": "• Distillerie Eulriet (Bruley, mirabela bio)",
+    "city": "Bruley",
+    "lat": 48.7077721,
+    "lng": 5.8507858,
+    "region": "GRAND EST",
+    "details": "• Distillerie Eulriet (Bruley, mirabela bio)"
+  },
+  {
+    "name": "Compagnie des Hautes Vosges",
+    "originalText": "• Compagnie des Hautes Vosges (Rozelieures)",
+    "city": "Rozelieures",
+    "lat": 48.4501443,
+    "lng": 6.4329466,
+    "region": "GRAND EST",
+    "details": "• Compagnie des Hautes Vosges (Rozelieures)"
+  },
+  {
+    "name": "Distillerie du Castor",
+    "originalText": "• Distillerie du Castor (Troisfontaines)",
+    "city": "Troisfontaines",
+    "lat": 48.6693915,
+    "lng": 7.1138125,
+    "region": "GRAND EST",
+    "details": "• Distillerie du Castor (Troisfontaines)"
+  },
+  {
+    "name": "Jean Claude Eulriet",
+    "originalText": "• Jean Claude Eulriet (Bruley)",
+    "city": "Bruley",
+    "lat": 48.7077721,
+    "lng": 5.8507858,
+    "region": "GRAND EST",
+    "details": "• Jean Claude Eulriet (Bruley)"
+  },
+  {
+    "name": "Alain Trichot",
+    "originalText": "• Alain Trichot (Trémont-sur-Saulx, Meuse)",
+    "city": "Trémont-sur-Saulx",
+    "lat": 48.7475708,
+    "lng": 5.0543718,
+    "region": "GRAND EST",
+    "details": "• Alain Trichot (Trémont-sur-Saulx, Meuse)"
+  },
+  {
+    "name": "Christophe Egloff",
+    "originalText": "• Christophe Egloff (Morville-sur-Nied)",
+    "city": "Morville-sur-Nied",
+    "lat": 48.9473345,
+    "lng": 6.4353125,
+    "region": "GRAND EST",
+    "details": "• Christophe Egloff (Morville-sur-Nied)"
+  },
+  {
+    "name": "La Cave Lorraine",
+    "originalText": "• La Cave Lorraine (Toul)",
+    "city": "Toul",
+    "lat": 48.6762624,
+    "lng": 5.8941759,
+    "region": "GRAND EST",
+    "details": "• La Cave Lorraine (Toul)"
+  },
+  {
+    "name": "Philippe Assa",
+    "originalText": "• Philippe Assa (Bar-le-Duc)",
+    "city": "Bar-le-Duc",
+    "lat": 48.7712673,
+    "lng": 5.1623805,
+    "region": "GRAND EST",
+    "details": "• Philippe Assa (Bar-le-Duc)"
+  },
+  {
+    "name": "Domaine de la Goulotte",
+    "originalText": "• Domaine de la Goulotte (Saint-Maurice-sous-les-Côtes)",
+    "city": "Saint-Maurice-sous-les-Côtes",
+    "lat": 49.0168209,
+    "lng": 5.6782942,
+    "region": "GRAND EST",
+    "details": "• Domaine de la Goulotte (Saint-Maurice-sous-les-Côtes)"
+  },
+  {
+    "name": "Clair de Lorraine",
+    "originalText": "• Clair de Lorraine (Void-Vacon)",
+    "city": "Void-Vacon",
+    "lat": 48.688593,
+    "lng": 5.6188799,
+    "region": "GRAND EST",
+    "details": "• Clair de Lorraine (Void-Vacon)"
+  },
+  {
+    "name": "Giffard",
+    "originalText": "• Giffard (Avrillé)",
+    "city": "Avrillé",
+    "lat": 47.5045657,
+    "lng": -0.5956539,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Giffard (Avrillé)"
+  },
+  {
+    "name": "Distillerie Combier",
+    "originalText": "• Distillerie Combier (Saumur, 1834)",
+    "city": "Saumur",
+    "lat": 47.2596224,
+    "lng": -0.0785177,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Distillerie Combier (Saumur, 1834)"
+  },
+  {
+    "name": "Distillerie Girardot",
+    "originalText": "• Distillerie Girardot (Chissay-en-Touraine)",
+    "city": "Chissay-en-Touraine",
+    "lat": 47.33672,
+    "lng": 1.13259,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Distillerie Girardot (Chissay-en-Touraine)"
+  },
+  {
+    "name": "Monin / Georges Monin",
+    "originalText": "• Monin / Georges Monin (Bourges, 1912)",
+    "city": "Bourges",
+    "lat": 47.0811658,
+    "lng": 2.399125,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Monin / Georges Monin (Bourges, 1912)"
+  },
+  {
+    "name": "Domaine du Croc du Merle",
+    "originalText": "• Domaine du Croc du Merle (Muides-sur-Loire)",
+    "city": "Muides-sur-Loire",
+    "lat": 47.6699317,
+    "lng": 1.527379,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Domaine du Croc du Merle (Muides-sur-Loire)"
+  },
+  {
+    "name": "Distillerie du Val de Loire",
+    "originalText": "• Distillerie du Val de Loire (Saumur)",
+    "city": "Saumur",
+    "lat": 47.2596224,
+    "lng": -0.0785177,
+    "region": "PAYS DE LA LOIRE",
+    "details": "• Distillerie du Val de Loire (Saumur)"
+  },
+  {
+    "name": "Jacquiot",
+    "originalText": "• Jacquiot (Plassac)",
+    "city": "Plassac",
+    "lat": 45.103967,
+    "lng": -0.6472076,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Jacquiot (Plassac)"
+  },
+  {
+    "name": "Le Domaine de Jacquiot",
+    "originalText": "• Le Domaine de Jacquiot (Plassac)",
+    "city": "Plassac",
+    "lat": 45.103967,
+    "lng": -0.6472076,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Le Domaine de Jacquiot (Plassac)"
+  },
+  {
+    "name": "Merlet",
+    "originalText": "• Merlet (Saint-Sauvant)",
+    "city": "Saint-Sauvant",
+    "lat": 45.7389374,
+    "lng": -0.504218,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Merlet (Saint-Sauvant)"
+  },
+  {
+    "name": "Maison Denoix",
+    "originalText": "• Maison Denoix (Brive-la-Gaillarde)",
+    "city": "Brive-la-Gaillarde",
+    "lat": 45.1584982,
+    "lng": 1.5332389,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Maison Denoix (Brive-la-Gaillarde)"
+  },
+  {
+    "name": "Distillerie du Périgord",
+    "originalText": "• Distillerie du Périgord (Sarlat-la-Canéda)",
+    "city": "Sarlat-la-Canéda",
+    "lat": 44.8879431,
+    "lng": 1.2161321,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie du Périgord (Sarlat-la-Canéda)"
+  },
+  {
+    "name": "Clovis Reymond",
+    "originalText": "• Clovis Reymond (Villamblard, 1834)",
+    "city": "Villamblard",
+    "lat": 45.0224081,
+    "lng": 0.5405512,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Clovis Reymond (Villamblard, 1834)"
+  },
+  {
+    "name": "Distillerie de l'Òrt",
+    "originalText": "• Distillerie de l'Òrt (Montignac-Lascaux, 2021, bio)",
+    "city": "Montignac-Lascaux",
+    "lat": 45.0638704,
+    "lng": 1.1652282,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie de l'Òrt (Montignac-Lascaux, 2021, bio)"
+  },
+  {
+    "name": "Distillerie La Salamandre",
+    "originalText": "• Distillerie La Salamandre (Sarlat-la-Canéda)",
+    "city": "Sarlat-la-Canéda",
+    "lat": 44.8879431,
+    "lng": 1.2161321,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie La Salamandre (Sarlat-la-Canéda)"
+  },
+  {
+    "name": "Distillerie de Mas de Cause",
+    "originalText": "• Distillerie de Mas de Cause (Daglan)",
+    "city": "Daglan",
+    "lat": 44.7423944,
+    "lng": 1.1916025,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie de Mas de Cause (Daglan)"
+  },
+  {
+    "name": "Distillerie Aurian",
+    "originalText": "• Distillerie Aurian (Condom)",
+    "city": "Condom",
+    "lat": 43.9564563,
+    "lng": 0.3745929,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie Aurian (Condom)"
+  },
+  {
+    "name": "Distillerie Louis Roque",
+    "originalText": "• Distillerie Louis Roque (Souillac)",
+    "city": "Souillac",
+    "lat": 44.8950451,
+    "lng": 1.477317,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Distillerie Louis Roque (Souillac)"
+  },
+  {
+    "name": "Marc Penche",
+    "originalText": "• Marc Penche (Cayriech)",
+    "city": "Cayriech",
+    "lat": 44.218876,
+    "lng": 1.6107194,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Marc Penche (Cayriech)"
+  },
+  {
+    "name": "André Rouere",
+    "originalText": "• André Rouere (Saint-Étienne-de-Tulmont)",
+    "city": "Saint-Étienne-de-Tulmont",
+    "lat": 44.0488889,
+    "lng": 1.4627778,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• André Rouere (Saint-Étienne-de-Tulmont)"
+  },
+  {
+    "name": "Olivier Buisine",
+    "originalText": "• Olivier Buisine (Montauban)",
+    "city": "Montauban",
+    "lat": 44.0175835,
+    "lng": 1.3549991,
+    "region": "NOUVELLE-AQUITAINE",
+    "details": "• Olivier Buisine (Montauban)"
+  },
+  {
+    "name": "Distillerie Sud Languedoc/ADSL",
+    "originalText": "• Distillerie Sud Languedoc/ADSL (Sigean)",
+    "city": "Sigean",
+    "lat": 43.029047,
+    "lng": 2.9808695,
+    "region": "OCCITANIE",
+    "details": "• Distillerie Sud Languedoc/ADSL (Sigean)"
+  },
+  {
+    "name": "Distillerie du Renard",
+    "originalText": "• Distillerie du Renard (Gignac, 2021)",
+    "city": "Gignac",
+    "lat": 43.6522859,
+    "lng": 3.5512018,
+    "region": "OCCITANIE",
+    "details": "• Distillerie du Renard (Gignac, 2021)"
+  },
+  {
+    "name": "Distillerie du Petit Grain",
+    "originalText": "• Distillerie du Petit Grain (Saint-Jean-de-Minervois)",
+    "city": "Saint-Jean-de-Minervois",
+    "lat": 43.3862566,
+    "lng": 2.8325995,
+    "region": "OCCITANIE",
+    "details": "• Distillerie du Petit Grain (Saint-Jean-de-Minervois)"
+  },
+  {
+    "name": "Distillerie du Somail",
+    "originalText": "• Distillerie du Somail (Ginestas)",
+    "city": "Ginestas",
+    "lat": 43.2675763,
+    "lng": 2.8722358,
+    "region": "OCCITANIE",
+    "details": "• Distillerie du Somail (Ginestas)"
+  },
+  {
+    "name": "L'Amourette",
+    "originalText": "• L'Amourette (Saint-Laurent-d'Aigouze)",
+    "city": "Saint-Laurent-d'Aigouze",
+    "lat": 43.6343255,
+    "lng": 4.1957274,
+    "region": "OCCITANIE",
+    "details": "• L'Amourette (Saint-Laurent-d'Aigouze)"
+  },
+  {
+    "name": "Les Ateliers de Gaïa",
+    "originalText": "• Les Ateliers de Gaïa (Pézenas)",
+    "city": "Pézenas",
+    "lat": 43.4611777,
+    "lng": 3.4228323,
+    "region": "OCCITANIE",
+    "details": "• Les Ateliers de Gaïa (Pézenas)"
+  },
+  {
+    "name": "Distillerie des Cévennes",
+    "originalText": "• Distillerie des Cévennes (Saint-Jean-du-Gard)",
+    "city": "Saint-Jean-du-Gard",
+    "lat": 44.1053053,
+    "lng": 3.8846803,
+    "region": "OCCITANIE",
+    "details": "• Distillerie des Cévennes (Saint-Jean-du-Gard)"
+  },
+  {
+    "name": "Brunel et Cie",
+    "originalText": "• Brunel et Cie (Carcassonne, 2023)",
+    "city": "Carcassonne",
+    "lat": 43.2130358,
+    "lng": 2.3491069,
+    "region": "OCCITANIE",
+    "details": "• Brunel et Cie (Carcassonne, 2023)"
+  },
+  {
+    "name": "Bows Distillerie",
+    "originalText": "• Bows Distillerie (Laure-Minervois, 2016)",
+    "city": "Laure-Minervois",
+    "lat": 43.2718,
+    "lng": 2.52099,
+    "region": "OCCITANIE",
+    "details": "• Bows Distillerie (Laure-Minervois, 2016)"
+  },
+  {
+    "name": "Bacardi-Martini",
+    "originalText": "• Bacardi-Martini (Marseillan)",
+    "city": "Marseillan",
+    "lat": 43.3021197,
+    "lng": 0.2138821,
+    "region": "OCCITANIE",
+    "details": "• Bacardi-Martini (Marseillan)"
+  },
+  {
+    "name": "Distillerie coopérative de Bizanet",
+    "originalText": "• Distillerie coopérative de Bizanet (Bizanet)",
+    "city": "Bizanet",
+    "lat": 43.1646131,
+    "lng": 2.8712516,
+    "region": "OCCITANIE",
+    "details": "• Distillerie coopérative de Bizanet (Bizanet)"
+  },
+  {
+    "name": "Distillerie de Canet-d'Aude",
+    "originalText": "• Distillerie de Canet-d'Aude (Canet)",
+    "city": "Canet",
+    "lat": 43.2292848,
+    "lng": 2.8474926,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Canet-d'Aude (Canet)"
+  },
+  {
+    "name": "Distillerie de Lézignan-Corbières",
+    "originalText": "• Distillerie de Lézignan-Corbières (Lézignan-Corbières)",
+    "city": "Lézignan-Corbières",
+    "lat": 43.2008841,
+    "lng": 2.7574981,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Lézignan-Corbières (Lézignan-Corbières)"
+  },
+  {
+    "name": "Distillerie de Limoux",
+    "originalText": "• Distillerie de Limoux (Limoux)",
+    "city": "Limoux",
+    "lat": 43.0538068,
+    "lng": 2.2176533,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Limoux (Limoux)"
+  },
+  {
+    "name": "Distillerie de Saint-Chinian",
+    "originalText": "• Distillerie de Saint-Chinian (Saint-Chinian)",
+    "city": "Saint-Chinian",
+    "lat": 43.4215,
+    "lng": 2.94677,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Saint-Chinian (Saint-Chinian)"
+  },
+  {
+    "name": "Distillerie d'Ouveillan",
+    "originalText": "• Distillerie d'Ouveillan (Ouveillan)",
+    "city": "Ouveillan",
+    "lat": 43.2887733,
+    "lng": 2.9719822,
+    "region": "OCCITANIE",
+    "details": "• Distillerie d'Ouveillan (Ouveillan)"
+  },
+  {
+    "name": "Distillerie de Saint-Marcel",
+    "originalText": "• Distillerie de Saint-Marcel (Saint-Marcel-sur-Aude)",
+    "city": "Saint-Marcel-sur-Aude",
+    "lat": 43.2453736,
+    "lng": 2.9219858,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Saint-Marcel (Saint-Marcel-sur-Aude)"
+  },
+  {
+    "name": "Distillerie d'Arzens",
+    "originalText": "• Distillerie d'Arzens (Arzens)",
+    "city": "Arzens",
+    "lat": 43.1987845,
+    "lng": 2.2080897,
+    "region": "OCCITANIE",
+    "details": "• Distillerie d'Arzens (Arzens)"
+  },
+  {
+    "name": "Distillerie d'Autignac",
+    "originalText": "• Distillerie d'Autignac (Autignac)",
+    "city": "Autignac",
+    "lat": 43.4997,
+    "lng": 3.17188,
+    "region": "OCCITANIE",
+    "details": "• Distillerie d'Autignac (Autignac)"
+  },
+  {
+    "name": "Distillerie d'Olonzac",
+    "originalText": "• Distillerie d'Olonzac (Olonzac)",
+    "city": "Olonzac",
+    "lat": 43.2844384,
+    "lng": 2.7296812,
+    "region": "OCCITANIE",
+    "details": "• Distillerie d'Olonzac (Olonzac)"
+  },
+  {
+    "name": "Distillerie de Cuxac-d'Aude",
+    "originalText": "• Distillerie de Cuxac-d'Aude (Cuxac-d'Aude)",
+    "city": "Cuxac-d'Aude",
+    "lat": 43.2434772,
+    "lng": 2.9993069,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Cuxac-d'Aude (Cuxac-d'Aude)"
+  },
+  {
+    "name": "Distillerie de Capestang",
+    "originalText": "• Distillerie de Capestang (Capestang)",
+    "city": "Capestang",
+    "lat": 43.3265792,
+    "lng": 3.0457226,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Capestang (Capestang)"
+  },
+  {
+    "name": "Distillerie de Vendres",
+    "originalText": "• Distillerie de Vendres (Vendres)",
+    "city": "Vendres",
+    "lat": 43.2686109,
+    "lng": 3.2237054,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de Vendres (Vendres)"
+  },
+  {
+    "name": "Distillerie de l'Aubrac",
+    "originalText": "• Distillerie de l'Aubrac (Nasbinals, 2022)",
+    "city": "Nasbinals",
+    "lat": 44.6625448,
+    "lng": 3.0465813,
+    "region": "OCCITANIE",
+    "details": "• Distillerie de l'Aubrac (Nasbinals, 2022)"
+  },
+  {
+    "name": "Luspin Olivier - La Muse du Verger",
+    "originalText": "• Luspin Olivier - La Muse du Verger (Saint-Beauzély)",
+    "city": "Saint-Beauzély",
+    "lat": 44.1676,
+    "lng": 2.95949,
+    "region": "OCCITANIE",
+    "details": "• Luspin Olivier - La Muse du Verger (Saint-Beauzély)"
+  },
+  {
+    "name": "Eyguebelle",
+    "originalText": "• Eyguebelle (Valaurie, 1949)",
+    "city": "Valaurie",
+    "lat": 44.4225104,
+    "lng": 4.8138874,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Eyguebelle (Valaurie, 1949)"
+  },
+  {
+    "name": "Distillerie Duffez",
+    "originalText": "• Distillerie Duffez (Bouchet)",
+    "city": "Bouchet",
+    "lat": 44.2976349,
+    "lng": 4.8735301,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Distillerie Duffez (Bouchet)"
+  },
+  {
+    "name": "Distillerie A. Blachère",
+    "originalText": "• Distillerie A. Blachère (Châteauneuf-du-Pape)",
+    "city": "Châteauneuf-du-Pape",
+    "lat": 44.055989,
+    "lng": 4.8317351,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Distillerie A. Blachère (Châteauneuf-du-Pape)"
+  },
+  {
+    "name": "La Chanenche",
+    "originalText": "• La Chanenche (La Motte-Chalancon)",
+    "city": "La Motte-Chalancon",
+    "lat": 44.4853515,
+    "lng": 5.3794919,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• La Chanenche (La Motte-Chalancon)"
+  },
+  {
+    "name": "Distillerie de Vogüé",
+    "originalText": "• Distillerie de Vogüé (Vogüé)",
+    "city": "Vogüé",
+    "lat": 44.5497298,
+    "lng": 4.4156504,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Distillerie de Vogüé (Vogüé)"
+  },
+  {
+    "name": "Routin 1883 / Maison Routin",
+    "originalText": "• Routin 1883 / Maison Routin (La Motte-Servolex)",
+    "city": "La Motte-Servolex",
+    "lat": 45.5984113,
+    "lng": 5.8767935,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Routin 1883 / Maison Routin (La Motte-Servolex)"
+  },
+  {
+    "name": "Dolin",
+    "originalText": "• Dolin (Chambéry)",
+    "city": "Chambéry",
+    "lat": 45.5662672,
+    "lng": 5.9203636,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Dolin (Chambéry)"
+  },
+  {
+    "name": "Jean-Yves Sourd",
+    "originalText": "• Jean-Yves Sourd (Servignat)",
+    "city": "Servignat",
+    "lat": 46.4332,
+    "lng": 5.06896,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Jean-Yves Sourd (Servignat)"
+  },
+  {
+    "name": "Domaine du Vissoux",
+    "originalText": "• Domaine du Vissoux (Saint-Vérand)",
+    "city": "Saint-Vérand",
+    "lat": 45.1738392,
+    "lng": 5.3329287,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Domaine du Vissoux (Saint-Vérand)"
+  },
+  {
+    "name": "Distillerie Baptiste",
+    "originalText": "• Distillerie Baptiste (Saint-Étienne-de-Chomeil)",
+    "city": "Saint-Étienne-de-Chomeil",
+    "lat": 45.3428977,
+    "lng": 2.601455,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Distillerie Baptiste (Saint-Étienne-de-Chomeil)"
+  },
+  {
+    "name": "Distillerie de Briançon",
+    "originalText": "• Distillerie de Briançon (Briançon)",
+    "city": "Briançon",
+    "lat": 44.8984037,
+    "lng": 6.6436313,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Distillerie de Briançon (Briançon)"
+  },
+  {
+    "name": "Gayral Reynier",
+    "originalText": "• Gayral Reynier (Saint-Jean-Saint-Nicolas)",
+    "city": "Saint-Jean-Saint-Nicolas",
+    "lat": 44.6698621,
+    "lng": 6.2167473,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• Gayral Reynier (Saint-Jean-Saint-Nicolas)"
+  },
+  {
+    "name": "O.S.U.D. Distillerie de l'Ubaye",
+    "originalText": "• O.S.U.D. Distillerie de l'Ubaye (Barcelonnette)",
+    "city": "Barcelonnette",
+    "lat": 44.3862043,
+    "lng": 6.6513554,
+    "region": "AUVERGNE-RHÔNE-ALPES",
+    "details": "• O.S.U.D. Distillerie de l'Ubaye (Barcelonnette)"
+  },
+  {
+    "name": "Distillerie Frigolet",
+    "originalText": "• Distillerie Frigolet (Châteaurenard, 1865)",
+    "city": "Châteaurenard",
+    "lat": 43.8820448,
+    "lng": 4.85568,
+    "region": "PROVENCE-ALPES-CÔTE D'AZUR",
+    "details": "• Distillerie Frigolet (Châteaurenard, 1865)"
+  },
+  {
+    "name": "Distillerie de Provence",
+    "originalText": "• Distillerie de Provence (Forcalquier)",
+    "city": "Forcalquier",
+    "lat": 43.9585575,
+    "lng": 5.780446,
+    "region": "PROVENCE-ALPES-CÔTE D'AZUR",
+    "details": "• Distillerie de Provence (Forcalquier)"
+  },
+  {
+    "name": "Maison Manguin",
+    "originalText": "• Maison Manguin (Avignon)",
+    "city": "Avignon",
+    "lat": 43.9492493,
+    "lng": 4.8059012,
+    "region": "PROVENCE-ALPES-CÔTE D'AZUR",
+    "details": "• Maison Manguin (Avignon)"
+  },
+  {
+    "name": "Distillerie Girard",
+    "originalText": "• Distillerie Girard (Jonquières)",
+    "city": "Jonquières",
+    "lat": 49.3899096,
+    "lng": 2.730011,
+    "region": "PROVENCE-ALPES-CÔTE D'AZUR",
+    "details": "• Distillerie Girard (Jonquières)"
+  },
+  {
+    "name": "Distillerie du Plessis",
+    "originalText": "• Distillerie du Plessis (Quimper)",
+    "city": "Quimper",
+    "lat": 47.9960325,
+    "lng": -4.1024782,
+    "region": "BRETAGNE",
+    "details": "• Distillerie du Plessis (Quimper)"
+  },
+  {
+    "name": "Maison Fisselier",
+    "originalText": "• Maison Fisselier (Pacé)",
+    "city": "Pacé",
+    "lat": 48.4454551,
+    "lng": -0.0039061,
+    "region": "BRETAGNE",
+    "details": "• Maison Fisselier (Pacé)"
+  },
+  {
+    "name": "Distillerie Warenghem",
+    "originalText": "• Distillerie Warenghem (Lannion, 1900)",
+    "city": "Lannion",
+    "lat": 48.7322183,
+    "lng": -3.4587994,
+    "region": "BRETAGNE",
+    "details": "• Distillerie Warenghem (Lannion, 1900)"
+  },
+  {
+    "name": "Domaine du Kinkiz",
+    "originalText": "• Domaine du Kinkiz (Quimper)",
+    "city": "Quimper",
+    "lat": 47.9960325,
+    "lng": -4.1024782,
+    "region": "BRETAGNE",
+    "details": "• Domaine du Kinkiz (Quimper)"
+  },
+  {
+    "name": "Vergers de la Morinière",
+    "originalText": "• Vergers de la Morinière (La Chapelle-Viel)",
+    "city": "La Chapelle-Viel",
+    "lat": 48.7004967,
+    "lng": 0.6195068,
+    "region": "NORMANDIE",
+    "details": "• Vergers de la Morinière (La Chapelle-Viel)"
+  },
+  {
+    "name": "Distillerie Persyn",
+    "originalText": "• Distillerie Persyn (Houlle, 1812)",
+    "city": "Houlle",
+    "lat": 50.7965913,
+    "lng": 2.1742979,
+    "region": "NORMANDIE",
+    "details": "• Distillerie Persyn (Houlle, 1812)"
+  },
+  {
+    "name": "Distillerie Busnel",
+    "originalText": "• Distillerie Busnel (Cormeilles)",
+    "city": "Cormeilles",
+    "lat": 49.6390754,
+    "lng": 2.1917033,
+    "region": "NORMANDIE",
+    "details": "• Distillerie Busnel (Cormeilles)"
+  },
+  {
+    "name": "Maison Hérout",
+    "originalText": "• Maison Hérout (Auvers, 1946)",
+    "city": "Auvers",
+    "lat": 49.2961201,
+    "lng": -1.3245282,
+    "region": "NORMANDIE",
+    "details": "• Maison Hérout (Auvers, 1946)"
+  },
+  {
+    "name": "Ferme de Billy",
+    "originalText": "• Ferme de Billy (Rots)",
+    "city": "Rots",
+    "lat": 49.2062576,
+    "lng": -0.4775068,
+    "region": "NORMANDIE",
+    "details": "• Ferme de Billy (Rots)"
+  },
+  {
+    "name": "Domaine Nicolas Flambard",
+    "originalText": "• Domaine Nicolas Flambard (Portbail)",
+    "city": "Portbail",
+    "lat": 49.3355434,
+    "lng": -1.6999359,
+    "region": "NORMANDIE",
+    "details": "• Domaine Nicolas Flambard (Portbail)"
+  },
+  {
+    "name": "Cidrerie Théo Capelle",
+    "originalText": "• Cidrerie Théo Capelle (Sotteville)",
+    "city": "Sotteville",
+    "lat": 49.5396722,
+    "lng": -1.7551133,
+    "region": "NORMANDIE",
+    "details": "• Cidrerie Théo Capelle (Sotteville)"
+  },
+  {
+    "name": "Domaine Louis Dupont",
+    "originalText": "• Domaine Louis Dupont (Victot-Pontfol)",
+    "city": "Victot-Pontfol",
+    "lat": 49.1644055,
+    "lng": -0.0166206,
+    "region": "NORMANDIE",
+    "details": "• Domaine Louis Dupont (Victot-Pontfol)"
+  },
+  {
+    "name": "TOS Distillerie",
+    "originalText": "• TOS Distillerie (Havrincourt)",
+    "city": "Havrincourt",
+    "lat": 50.1115504,
+    "lng": 3.084273,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• TOS Distillerie (Havrincourt)"
+  },
+  {
+    "name": "Distillerie Claeyssens",
+    "originalText": "• Distillerie Claeyssens (Wambrechies)",
+    "city": "Wambrechies",
+    "lat": 50.6861944,
+    "lng": 3.0521806,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Distillerie Claeyssens (Wambrechies)"
+  },
+  {
+    "name": "Distillerie Persyn",
+    "originalText": "• Distillerie Persyn (Houlle)",
+    "city": "Houlle",
+    "lat": 50.7965913,
+    "lng": 2.1742979,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Distillerie Persyn (Houlle)"
+  },
+  {
+    "name": "Distillerie d'Hautefeuille",
+    "originalText": "• Distillerie d'Hautefeuille (Beaucourt-en-Santerre)",
+    "city": "Beaucourt-en-Santerre",
+    "lat": 49.7933928,
+    "lng": 2.5861301,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Distillerie d'Hautefeuille (Beaucourt-en-Santerre)"
+  },
+  {
+    "name": "Ryssen Alcools",
+    "originalText": "• Ryssen Alcools (Dunkerque)",
+    "city": "Dunkerque",
+    "lat": 51.0347708,
+    "lng": 2.3772525,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Ryssen Alcools (Dunkerque)"
+  },
+  {
+    "name": "Sylvain Malivoir",
+    "originalText": "• Sylvain Malivoir (Epaumesnil)",
+    "city": "Epaumesnil",
+    "lat": 49.91148,
+    "lng": 1.85233,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Sylvain Malivoir (Epaumesnil)"
+  },
+  {
+    "name": "Jacques Bamière",
+    "originalText": "• Jacques Bamière (Villers-Campsart)",
+    "city": "Villers-Campsart",
+    "lat": 49.8693554,
+    "lng": 1.8340798,
+    "region": "HAUTS-DE-FRANCE",
+    "details": "• Jacques Bamière (Villers-Campsart)"
+  },
+  {
+    "name": "Cherry Rocher",
+    "originalText": "• Cherry Rocher (La Côte-Saint-André)",
+    "city": "La Côte-Saint-André",
+    "lat": 45.3937745,
+    "lng": 5.2604941,
+    "region": "GRANDES MARCAS NACIONAIS",
+    "details": "• Cherry Rocher (La Côte-Saint-André)"
+  },
+  {
+    "name": "Marie Brizard",
+    "originalText": "• Marie Brizard (Bordeaux)",
+    "city": "Bordeaux",
+    "lat": 44.841225,
+    "lng": -0.5800364,
+    "region": "GRANDES MARCAS NACIONAIS",
+    "details": "• Marie Brizard (Bordeaux)"
+  },
+  {
+    "name": "Monin",
+    "originalText": "• Monin (Bourges)",
+    "city": "Bourges",
+    "lat": 47.0811658,
+    "lng": 2.399125,
+    "region": "GRANDES MARCAS NACIONAIS",
+    "details": "• Monin (Bourges)"
+  },
+  {
+    "name": "Teisseire",
+    "originalText": "• Teisseire (Crolles)",
+    "city": "Crolles",
+    "lat": 45.2845907,
+    "lng": 5.8839432,
+    "region": "GRANDES MARCAS NACIONAIS",
+    "details": "• Teisseire (Crolles)"
+  },
+  {
+    "name": "Pagès",
+    "originalText": "• Pagès (Le Puy-en-Velay)",
+    "city": "Le Puy-en-Velay",
+    "lat": 45.0459739,
+    "lng": 3.8855537,
+    "region": "GRANDES MARCAS NACIONAIS",
+    "details": "• Pagès (Le Puy-en-Velay)"
+  }
+]
