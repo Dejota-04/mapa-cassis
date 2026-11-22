@@ -1,4 +1,4 @@
-<!-- doc-conferida: 2026-11-21 commit: pendente -->
+<!-- doc-conferida: 2026-11-21 commit: 4e6db9e -->
 # mapa-cassis
 
 > Mapa interativo dos produtores de cassis (crème, liqueur, sirop) na França, feito para o sogro.
