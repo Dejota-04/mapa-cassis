@@ -164,9 +164,7 @@ export default function App() {
               {Object.values(TYPES).map((t) => (
                 <li key={t.label} className="flex items-center gap-2.5">
                   <span className="h-3.5 w-3.5 shrink-0 rounded-full" style={{ background: t.color }} aria-hidden />
-                  <span>
-                    {t.icon} {t.label}
-                  </span>
+                  <span>{t.label}</span>
                 </li>
               ))}
             </ul>

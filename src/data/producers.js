@@ -13,15 +13,15 @@
 // Cidade nova? Rode `npm run geocode` para gravar as coordenadas em coords.js.
 
 export const TYPES = {
-  licorista: { label: 'Licoristas tradicionais', icon: '🏭', color: '#6d1b4f' },
-  destilaria: { label: 'Destilarias', icon: '🥃', color: '#b45309' },
-  artesanal: { label: 'Produtores artesanais', icon: '🍷', color: '#be123c' },
-  domaine: { label: 'Vinícolas e domaines', icon: '🏰', color: '#4338ca' },
-  cooperativa: { label: 'Cooperativas', icon: '🤝', color: '#0f766e' },
-  cidricultor: { label: 'Cidra e Calvados', icon: '🍎', color: '#65a30d' },
-  ambulante: { label: 'Destiladores ambulantes', icon: '🚚', color: '#57534e' },
-  xarope: { label: 'Fabricantes de xarope', icon: '🧃', color: '#0284c7' },
-  marca: { label: 'Marcas históricas nacionais', icon: '🏆', color: '#a16207' },
+  licorista: { label: 'Licoristas tradicionais', color: '#6d1b4f' },
+  destilaria: { label: 'Destilarias', color: '#b45309' },
+  artesanal: { label: 'Produtores artesanais', color: '#be123c' },
+  domaine: { label: 'Vinícolas e domaines', color: '#4338ca' },
+  cooperativa: { label: 'Cooperativas', color: '#0f766e' },
+  cidricultor: { label: 'Cidra e Calvados', color: '#65a30d' },
+  ambulante: { label: 'Destiladores ambulantes', color: '#57534e' },
+  xarope: { label: 'Fabricantes de xarope', color: '#0284c7' },
+  marca: { label: 'Marcas históricas nacionais', color: '#a16207' },
 }
 
 export const TAGS = {

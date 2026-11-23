@@ -128,8 +128,9 @@ function PopupBody({ p, isFavorite, onToggleFavorite }) {
   const type = TYPES[p.type]
   return (
     <div className="min-w-[210px] max-w-[260px]">
-      <p className="text-xs font-medium uppercase tracking-wide" style={{ color: type.color }}>
-        {type.icon} {type.label}
+      <p className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide" style={{ color: type.color }}>
+        <span className="h-2.5 w-2.5 rounded-full" style={{ background: type.color }} aria-hidden />
+        {type.label}
       </p>
       <h3 className="mt-1 font-display text-lg font-bold leading-tight text-cassis-900">{p.name}</h3>
       <p className="mt-1 text-stone-600">
