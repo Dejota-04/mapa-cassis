@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
-import { ChevronDown, MapPinOff, Star } from 'lucide-react'
+import { ChevronDown, MapPinOff, Star, Users } from 'lucide-react'
 import { TAGS, TYPES } from '../data/producers.js'
 import ProducerActions from './ProducerActions.jsx'
+import TypeIcon from './TypeIcon.jsx'
 
 export default function ProducerList({ groups, estimates, filtersActive, openRegions: open, setOpenRegions: setOpen, selected, onSelect, favorites, onToggleFavorite, onShowOnMap }) {
   const selectedId = selected?.producer.id
@@ -91,8 +92,11 @@ export default function ProducerList({ groups, estimates, filtersActive, openReg
                   ))}
                   {!filtersActive &&
                     estimates[g.region]?.map((e) => (
-                      <p key={e.label} className="mx-2 mt-2 rounded-lg bg-leaf/10 px-3 py-2 text-sm text-leaf">
-                        Estimativa: ~{e.approx} {e.label} ({e.place})
+                      <p key={e.label} className="flex items-start gap-2 mx-2 mt-2 rounded-lg bg-leaf/10 px-3 py-2 text-sm text-leaf">
+                        <Users className="mt-0.5 h-4 w-4 shrink-0" aria-hidden />
+                        <span>
+                          Estimativa: ~{e.approx} {e.label} ({e.place})
+                        </span>
                       </p>
                     ))}
                 </div>
@@ -119,7 +123,9 @@ function ProducerItem({ p, isSelected, isFavorite, onSelect, onToggleFavorite, o
           aria-expanded={isSelected}
           className="flex min-w-0 flex-1 items-start gap-3 rounded-lg px-2 py-2.5 text-left"
         >
-          <span className="mt-1.5 h-3.5 w-3.5 shrink-0 rounded-full" style={{ background: type.color }} title={type.label} aria-hidden />
+          <span title={type.label} className="mt-0.5">
+            <TypeIcon type={p.type} variant="badge" size={15} />
+          </span>
           <span className="min-w-0">
             <span className="block font-semibold leading-snug text-stone-900">{p.name}</span>
             <span className="block text-sm text-stone-600">
@@ -155,7 +161,7 @@ function ProducerItem({ p, isSelected, isFavorite, onSelect, onToggleFavorite, o
         </button>
       </div>
       {isSelected && (
-        <div className="px-3 pb-3 sm:pl-8">
+        <div className="px-3 pb-3 sm:pl-12">
           <p className="text-sm text-stone-600">
             {type.label}
             {p.deptName ? ` · ${p.deptName} (${p.dept})` : ''}

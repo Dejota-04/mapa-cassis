@@ -1,5 +1,6 @@
 import { Download, Search, Star, X } from 'lucide-react'
 import { TAGS, TYPES } from '../data/producers.js'
+import TypeIcon from './TypeIcon.jsx'
 
 export default function Filters({ filters, setFilters, regions, favoritesCount, resultCount, filtersActive, onClear, onDownload }) {
   const set = (patch) => setFilters((f) => ({ ...f, ...patch }))
@@ -50,7 +51,7 @@ export default function Filters({ filters, setFilters, regions, favoritesCount, 
             const active = filters.types.includes(key)
             return (
               <button key={key} type="button" aria-pressed={active} onClick={() => toggleIn('types', key)} className={chip(active)}>
-                <span className="h-2.5 w-2.5 rounded-full ring-1 ring-white/70" style={{ background: t.color }} aria-hidden />
+                <TypeIcon type={key} size={16} inherit={active} />
                 {t.label}
               </button>
             )

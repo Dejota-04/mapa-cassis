@@ -3,6 +3,7 @@ import { CircleMarker, MapContainer, Popup, TileLayer, Tooltip, useMap } from 'r
 import { Crosshair } from 'lucide-react'
 import { TYPES } from '../data/producers.js'
 import ProducerActions from './ProducerActions.jsx'
+import TypeIcon from './TypeIcon.jsx'
 
 const FRANCE = [
   [42.3, -4.8],
@@ -129,7 +130,7 @@ function PopupBody({ p, isFavorite, onToggleFavorite }) {
   return (
     <div className="min-w-[210px] max-w-[260px]">
       <p className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide" style={{ color: type.color }}>
-        <span className="h-2.5 w-2.5 rounded-full" style={{ background: type.color }} aria-hidden />
+        <TypeIcon type={p.type} size={14} />
         {type.label}
       </p>
       <h3 className="mt-1 font-display text-lg font-bold leading-tight text-cassis-900">{p.name}</h3>

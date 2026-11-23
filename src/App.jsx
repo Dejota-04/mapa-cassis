@@ -6,6 +6,7 @@ import { loadFavorites, saveFavorites } from './lib/storage.js'
 import Filters from './components/Filters.jsx'
 import MapView from './components/MapView.jsx'
 import ProducerList from './components/ProducerList.jsx'
+import TypeIcon from './components/TypeIcon.jsx'
 
 const ALL = enrichProducers(PRODUCERS, COORDS)
 const ALL_GROUPS = groupByRegion(ALL)
@@ -161,9 +162,9 @@ export default function App() {
           <div className="rounded-2xl border border-cassis-900/10 bg-white p-6 shadow-sm">
             <h2 className="font-display text-xl font-bold text-cassis-900">Legenda</h2>
             <ul className="mt-4 grid gap-2.5 text-stone-700 sm:grid-cols-2">
-              {Object.values(TYPES).map((t) => (
-                <li key={t.label} className="flex items-center gap-2.5">
-                  <span className="h-3.5 w-3.5 shrink-0 rounded-full" style={{ background: t.color }} aria-hidden />
+              {Object.entries(TYPES).map(([key, t]) => (
+                <li key={key} className="flex items-center gap-2.5">
+                  <TypeIcon type={key} variant="badge" size={16} />
                   <span>{t.label}</span>
                 </li>
               ))}
